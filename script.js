@@ -52,14 +52,17 @@ function updateContent(language) {
             'J6-Description3': '- Gestión Integral del Desarrollo: Coordinación y ejecución de todas las fases del desarrollo, desde la planificación y diseño hasta la implementación y mantenimiento continuo. Colaboración estrecha con equipos internos y partes interesadas para comprender las necesidades y objetivos del proyecto.',
             'J6-Description4': '- Tecnologías Utilizadas: Amplio conocimiento y experiencia en PHP, HTML, CSS, JavaScript, AJAX, y otras tecnologías web. Integración efectiva de herramientas, frameworks y librerías para optimizar el rendimiento y la eficiencia del desarrollo.',
             'Projects': 'Proyectos Destacados',
+            'P1-Title': 'Aplicación de Clima',
+            'P1-Description': 'La Aplicación de Clima está desarrollada con HTML, CSS y JavaScript, utiliza la API de OpenWeatherMap para obtener información meteorológica en tiempo real.',
+            'P1-View':'Ver Proyecto',
+
             'Education': 'Educación',
             'D1-Title' : 'Ing. en Sistemas Computacionales',
             'D1-Details' : 'Tecnológico de Monterrey Campus Toluca, Trunco (Octavo Semestre)',
             'D2-Title' : 'Idiomas',
             'D2-Details1' : 'Español: Nativo',
             'D2-Details2' : 'Inglés: Avanzado',
-            'Other Skills' : 'Otras Habilidades',
-            'View Project': 'Ver Proyecto'
+            'Other Skills' : 'Otras Habilidades'
         },
         'en': {
             'Language': 'Español',
@@ -95,14 +98,17 @@ function updateContent(language) {
             'J6-Description3': '- Comprehensive Development Management: Coordination and execution of all development phases, from planning and design to implementation and continuous maintenance. Close collaboration with internal teams and stakeholders to understand project needs and objectives.',
             'J6-Description4': '- Technologies Used: Extensive knowledge and experience in PHP, HTML, CSS, JavaScript, AJAX, and other web technologies. Effective integration of tools, frameworks, and libraries to optimize performance and development efficiency.',
             'Projects': 'Featured Projects',
+            'P1-Title': 'Weather Application',
+            'P1-Description': 'The Weather Application was developed using HTML, CSS, and JavaScript. It makes a request to the OpenWeatherMap API to retrieve real-time weather information.',
+            'P1-View': 'View Project',
+
             'Education': 'Education',
             'D1-Title' : 'Computer Science Engineer',
             'D1-Details' : 'Tecnologico de Monterrey Campus Toluca, Dropout (Eighth Semester)',
             'D2-Title' : 'Languages',
             'D2-Details1' : 'Spanish: Native',
             'D2-Details2' : 'English: Advanced',
-            'Other Skills' : 'Other Skills',
-            'View Project': 'View Project'
+            'Other Skills' : 'Other Skills'
         }
     };
 
@@ -140,6 +146,9 @@ function updateContent(language) {
     document.getElementById('job6-description3').innerText = translations[language]['J6-Description3'];
     document.getElementById('job6-description4').innerText = translations[language]['J6-Description4'];
     document.getElementById('projects-title').innerText = translations[language]['Projects'];
+    document.getElementById('project1-title').innerText = translations[language]['P1-Title'];
+    document.getElementById('project1-description').innerText = translations[language]['P1-Description'];
+    document.getElementById('project1-view').innerText = translations[language]['P1-View'];
 
     document.getElementById('education-title').innerText = translations[language]['Education'];
     document.getElementById('degree1-title').innerText = translations[language]['D1-Title'];
@@ -148,9 +157,6 @@ function updateContent(language) {
     document.getElementById('degree2-details1').innerText = translations[language]['D2-Details1'];
     document.getElementById('degree2-details2').innerText = translations[language]['D2-Details2'];
     document.getElementById('otherSkills-title').innerText = translations[language]['Other Skills'];
-
-
-    document.getElementById('projects').getElementsByTagName('a')[0].innerText = translations[language]['View Project'];
 }
 
 // Actualiza el contenido al cargar la página
