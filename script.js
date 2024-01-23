@@ -55,6 +55,9 @@ function updateContent(language) {
             'P1-Title': 'Aplicación de Clima',
             'P1-Description': 'La Aplicación de Clima está desarrollada con HTML, CSS y JavaScript, utiliza la API de OpenWeatherMap para obtener información meteorológica en tiempo real.',
             'P1-View':'Ver Proyecto',
+            'P2-Title': 'Juego de Adivinanzas',
+            'P2-Description': 'Juego interactivo de adivinanzas en una aplicación web. Desarrollado con HTML, CSS y JavaScript. Presenta múltiples adivinanzas con verificación instantánea de respuestas.',
+            'P2-View': 'Ver Proyecto',
 
             'Education': 'Educación',
             'D1-Title' : 'Ing. en Sistemas Computacionales',
@@ -101,6 +104,9 @@ function updateContent(language) {
             'P1-Title': 'Weather Application',
             'P1-Description': 'The Weather Application was developed using HTML, CSS, and JavaScript. It makes a request to the OpenWeatherMap API to retrieve real-time weather information.',
             'P1-View': 'View Project',
+            'P2-Title': 'Riddles',
+            'P2-Description': 'Interactive riddles game on a web application. Developed with HTML, CSS, and JavaScript. Features multiple riddles with instant answer verification.',
+            'P2-View': 'View Project',
 
             'Education': 'Education',
             'D1-Title' : 'Computer Science Engineer',
@@ -149,6 +155,9 @@ function updateContent(language) {
     document.getElementById('project1-title').innerText = translations[language]['P1-Title'];
     document.getElementById('project1-description').innerText = translations[language]['P1-Description'];
     document.getElementById('project1-view').innerText = translations[language]['P1-View'];
+    document.getElementById('project2-title').innerText = translations[language]['P2-Title'];
+    document.getElementById('project2-description').innerText = translations[language]['P2-Description'];
+    document.getElementById('project2-view').innerText = translations[language]['P2-View'];
 
     document.getElementById('education-title').innerText = translations[language]['Education'];
     document.getElementById('degree1-title').innerText = translations[language]['D1-Title'];

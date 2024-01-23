@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Adivinanzas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Bienvenido al Juego de Adivinanzas</h1>
+        <div id="question-container">
+            <p id="question"></p>
+        </div>
+        <input type="text" id="answerInput" placeholder="Tu respuesta...">
+        <button id="comprobarBtn" onclick="checkAnswer()">Comprobar</button>
+        <p id="result"></p>
+        <p id="score">Puntuación: <span id="scoreValue">0</span></p>
+        <button id="restartBtn" onclick="restartGame()">Reiniciar Juego</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
