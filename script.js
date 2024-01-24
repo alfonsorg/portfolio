@@ -25,7 +25,7 @@ function updateContent(language) {
             'About': 'Durante 8 años de experiencia laboral en el campo de la tecnología, he trabajado en proyectos desafiantes y he adquirido habilidades valiosas en programación, desarrollo web y diversas áreas más. Mi determinación y dedicación me han permitido alcanzar logros significativos, incluyendo el implementar proyectos en líneas de producción y crear desarrollos a la medida para clientes. También he tenido la oportunidad de trabajar en áreas no relacionadas al campo de la tecnología, lo cual me ha servido para ampliar mis habilidades en el ámbito laboral y me ha dado la oportunidad de liderar equipos de trabajo. Mi objetivo laboral es desarrollarme a corto y largo plazo dentro de una empresa que me ofrezca posibilidades de aprender nuevas tecnologías las cuales me ayuden a resolver problemas de una manera más eficiente.',
             'Technicall Skills': 'Habilidades Técnicas',
             'TS1': 'Lenguajes de programación: Python, C, Java, SQL, PHP, HTML, CSS, JavaScript',
-            'TS2': 'Frameworks/Metodologías: Bootstrap, Rails, Django, Flask, WordPress, MVC, POO',
+            'TS2': 'Frameworks/Metodologías: Bootstrap, Rails, Django, Flask, WordPress, MVC, OOP',
             'TS3': 'Plataformas: MAC OS (User), Windows XP (User), Windows 7 (User), Windows 8 (User), Windows 10 (User), iOS (User), Android (User)',
             'TS4': 'RDBMS: MySQL, Microsoft SQL Server',
             'Experience': 'Experiencia Laboral',
