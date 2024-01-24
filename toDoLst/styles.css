@@ -78,7 +78,7 @@ li:hover {
 
 .edit-btn,
 .remove-btn {
-    background-color: #3498db; /* Azul */
+    background-color: #3498db; 
     color: #fff;
     padding: 5px 10px;
     border: none;
@@ -88,5 +88,5 @@ li:hover {
 
 .edit-btn:hover,
 .remove-btn:hover {
-    background-color: #2980b9; /* Azul más oscuro */
+    background-color: #2980b9;
 }
