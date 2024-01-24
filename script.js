@@ -58,6 +58,9 @@ function updateContent(language) {
             'P2-Title': 'Juego de Adivinanzas',
             'P2-Description': 'Juego interactivo de adivinanzas en una aplicación web. Desarrollado con HTML, CSS y JavaScript. Presenta múltiples adivinanzas con verificación instantánea de respuestas.',
             'P2-View': 'Ver Proyecto',
+            'P3-Title': 'Lista de Tareas',
+            'P3-Description': 'La lista de tareas es una aplicación web desarrollada con HTML, CSS y JavaScript. Permite a los usuarios agregar, editar y eliminar tareas. La información se almacena localmente en el navegador utilizando el almacenamiento local.',
+            'P3-View': 'View Project',
 
             'Education': 'Educación',
             'D1-Title' : 'Ing. en Sistemas Computacionales',
@@ -107,6 +110,9 @@ function updateContent(language) {
             'P2-Title': 'Riddles',
             'P2-Description': 'Interactive riddles game on a web application. Developed with HTML, CSS, and JavaScript. Features multiple riddles with instant answer verification.',
             'P2-View': 'View Project',
+            'P3-Title': 'To Do List',
+            'P3-Description': 'The to-do list is a web application developed with HTML, CSS, and JavaScript. It allows users to add, edit, and delete tasks. Information is stored locally in the browser using local storage.',
+            'P3-View': 'View Project',
 
             'Education': 'Education',
             'D1-Title' : 'Computer Science Engineer',
@@ -158,6 +164,9 @@ function updateContent(language) {
     document.getElementById('project2-title').innerText = translations[language]['P2-Title'];
     document.getElementById('project2-description').innerText = translations[language]['P2-Description'];
     document.getElementById('project2-view').innerText = translations[language]['P2-View'];
+    document.getElementById('project3-title').innerText = translations[language]['P3-Title'];
+    document.getElementById('project3-description').innerText = translations[language]['P3-Description'];
+    document.getElementById('project3-view').innerText = translations[language]['P3-View'];
 
     document.getElementById('education-title').innerText = translations[language]['Education'];
     document.getElementById('degree1-title').innerText = translations[language]['D1-Title'];
